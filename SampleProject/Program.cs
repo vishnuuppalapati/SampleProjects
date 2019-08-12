@@ -12,6 +12,7 @@ namespace SampleProject
         {
             PalindromeSample.Run();
             DelegateSample.Run();
+            DeleteDuplicate.Run();
         }
     }
 }
