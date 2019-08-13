@@ -14,15 +14,15 @@ namespace SampleProject
             
             foreach (var words in arr)
             {
-                string revstring = "";
+                string rev = "";
                 char[] ch = words.ToCharArray();
                 for (int i=ch.Length-1;i>=0;i--)
                 {
-                    revstring += words[i];
+                    rev += words[i];
                 }
-                if(revstring==words)
+                if(rev==words)
                 {
-                    Console.WriteLine("Palindrome is:{0}", revstring);
+                    Console.WriteLine("Palindrome is:{0}", rev);
                 }
                 
             }
