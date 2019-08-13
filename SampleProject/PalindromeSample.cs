@@ -10,9 +10,9 @@ namespace SampleProject
     {
         public static void Run()
         {
-            string[] array = { "vishnu", "anil", "rajesh", "anji", "rajashekar", "madam", "anil", "ajay", "teja", "santosh", "malayalam" };
+            string[] arr = { "vishnu", "anil", "rajesh", "anji", "rajashekar", "madam", "anil", "ajay", "teja", "santosh", "malayalam" };
             
-            foreach (var words in array)
+            foreach (var words in arr)
             {
                 string revstring = "";
                 char[] ch = words.ToCharArray();
